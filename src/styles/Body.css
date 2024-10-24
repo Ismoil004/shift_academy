@@ -1,0 +1,178 @@
+@media (min-width: 1001px) {
+
+    .text-body {
+        font-family: Inter;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60.51px;
+        text-align: left;
+        color: white;
+        margin: 104px auto 0 ;
+        max-width: 1220px;
+    }
+
+    .card-body{
+        width: 380px;
+        height: 250px;
+        box-shadow: -21px 21px 21px 0px #FFFFFF1A inset;
+
+        box-shadow: 21px -21px 21px 0px #A5A5A51A inset;
+background-color: #D9D9D91A ;
+        backdrop-filter: blur(42px);
+
+        border-radius: 15px;
+
+    }
+    .card-aylana{
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        border-radius: 50%;
+     margin-top: 26px;
+        margin-left: 20px;
+    }
+    .card-text{
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25.5px;
+        text-align: left;
+         color: white;
+        padding-left: 20px;
+        padding-top: 14px;
+    }
+    .aylana3 {
+        width: 450px;
+        height: 450px;
+        background: linear-gradient(180deg, #31A8FF 0%, #975AD7 99.99%, #FF0AAD 100%);
+        filter: blur(350px) brightness(2); /* Increased brightness to 200% */
+        transform: rotate(-57.69deg);
+        position: absolute;
+        top: 1298px;
+        left: -500px;
+    }
+    .box-cards6{
+        display: flex;
+        gap: 20px;
+        max-width: 1140px;
+        margin: 0px auto;
+        padding-top: 82px;
+    }
+}
+@media (min-width: 700px ) and (max-width: 1000px) {
+    .text-body {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.73px;
+        text-align: left;
+
+        color: white;
+        margin-top: 104px;
+        padding-left: 20px;
+    }
+
+    .card-body{
+        width: 380px;
+        height: 120px;
+        box-shadow: -21px 21px 21px 0px #FFFFFF1A inset;
+
+        box-shadow: 21px -21px 21px 0px #A5A5A51A inset;
+        background-color: #D9D9D91A ;
+        backdrop-filter: blur(42px);
+
+        border-radius: 15px;
+
+    }
+    .card-aylana{
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 11px;
+        margin-left: 10px;
+    }
+    .card-text{
+        font-family: Inter;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 10.5px;
+        text-align: left;
+
+        color: white;
+        padding-left: 10px;
+        padding-top: 16px;
+    }
+    .aylana3 {
+       display: none;
+    }
+    .box-cards6{
+        display: flex;
+        gap: 20px;
+        max-width: 1140px;
+        margin: 0px auto;
+        padding-top: 27px !important;
+    }
+}
+@media (min-width: 320px ) and (max-width: 699.5px) {
+        .text-body {
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            text-align: left;
+
+
+            color: white;
+            margin: 33px auto 0 ;
+            max-width: 280px;
+        }
+
+        .card-body{
+            width:  300px;
+            height: 180px;
+            box-shadow: -21px 21px 21px 0px #FFFFFF1A inset;
+
+            box-shadow: 21px -21px 21px 0px #A5A5A51A inset;
+            background-color: #D9D9D91A ;
+            backdrop-filter: blur(42px);
+
+            border-radius: 15px;
+
+        }
+        .card-aylana{
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .card-text{
+            font-family: Inter;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            text-align: left;
+
+
+            color: white;
+            padding-left: 20px;
+            padding-top: 15px;
+        }
+        .aylana3 {
+            display: none;
+        }
+        .box-cards6{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            max-width: 1140px;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            padding-top: 18px !important;
+        }
+
+
+}

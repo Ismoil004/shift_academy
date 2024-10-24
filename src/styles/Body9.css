@@ -1,0 +1,390 @@
+@media (min-width: 1001px) {
+    .biz2{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+color: white;
+        margin: 170px auto 0 ;
+        max-width: 1220px;
+}
+    .yandex-map {
+        width: 100%; /* Full width of the parent */
+        height: 100%; /* Full height of the parent */
+        max-height: 600px; /* Maximum height */
+        margin: 0 auto; /* Centering */
+    }
+
+
+    .big-box2 {
+        width: 100%; /* Make it responsive */
+        max-width: 780px; /* Maximum width */
+        height: 600px; /* Defined height */
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden; /* Prevent overflow */
+        position: relative; /* For absolute positioning of children */
+    }
+
+    .map{
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.41px;
+        text-align: center;
+        padding-top: 276px;
+
+    }
+    .card-body9{
+        width: 380px;
+        height: 600px;
+        background-color: #8F8F8F1A;
+        border-radius: 20px ;
+        box-shadow: -32.67px 32.67px 32.67px 0px #FFFFFF1A inset;
+
+        box-shadow: 32.67px -32.67px 32.67px 0px #6C6C6C1A inset;
+padding-left: 20px;
+        backdrop-filter: blur(65.33333587646484px);
+    }
+    .buxoro{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.31px;
+        text-align: left;
+color: white;
+        padding-top: 24px;
+    }
+    .div-card{
+        width: 340px;
+        height: 200px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 16px;
+
+    }
+    .image3{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.31px;
+        text-align: center;
+padding-top: 82px;
+    }
+    .mol{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.31px;
+        text-align: left;
+        color: white;
+        padding-top: 48px;
+    }
+    .text-card{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.2px;
+        text-align: left;
+        color: white;
+        padding-top: 5px;
+    }
+    .chiziq2{
+        width: 340px;
+margin-top: 26px;
+        border: 2px solid white;
+
+    }
+    .ish{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.31px;
+        text-align: left;
+     color: white;
+        padding-top: 27px;
+    }
+    .time{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.2px;
+        text-align: left;
+        color: white;
+        padding-top: 5px;
+    }
+    .aylana11{
+        width: 450px;
+        height: 360px;
+        background: linear-gradient(180deg, #31A8FF 0%, #975AD7 99.99%, #FF0AAD 100%);
+        filter: blur(350px) brightness(2); /* Increased brightness to 200% */
+        transform: rotate(-57.69deg);
+        position: absolute;
+        top: 7759px;
+        left: -500px;
+
+    }
+}
+@media (min-width: 700px ) and (max-width: 1000px) {
+        .biz2{
+            font-family: Inter;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 42.36px;
+            text-align: left;
+
+            color: white;
+            padding-top: 30px;
+            padding-left: 12px;
+        }
+    .yandex-map {
+        width: 100%; /* Full width of the parent */
+        height: 100%; /* Full height of the parent */
+        max-height: 600px; /* Maximum height */
+        margin: 0 auto; /* Centering */
+    }
+    .big-box2 {
+        width: 100%; /* Make it responsive */
+        max-width: 780px; /* Maximum width */
+        height: 380px; /* Defined height */
+        background-color: white;
+        border-radius: 15px;
+        overflow: hidden; /* Prevent overflow */
+        position: relative; /* For absolute positioning of children */
+    }
+        .map{
+            font-family: Inter;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 42.36px;
+            text-align: center;
+            padding-top: 169px;
+
+        }
+        .card-body9{
+            width: 380px;
+            height: 380px;
+            background-color: #8F8F8F1A;
+            border-radius: 15px ;
+            box-shadow: -32.67px 32.67px 32.67px 0px #FFFFFF1A inset;
+
+            box-shadow: 32.67px -32.67px 32.67px 0px #6C6C6C1A inset;
+            padding-left: 10px;
+            padding-right: 10px;
+            backdrop-filter: blur(65.33333587646484px);
+        }
+        .buxoro{
+            font-family: Inter;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 27.84px;
+            text-align: left;
+            padding-left: 8px;
+            color: white;
+            padding-top: 16px;
+        }
+        .div-card{
+            max-width: 100%;
+            height: 150px;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 16px;
+
+        }
+        .image3{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+            text-align: center;
+
+            padding-top: 60px;
+        }
+        .mol{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+           padding-left: 8px;
+            color: white;
+            padding-top: 18px;
+        }
+        .text-card{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+       padding-left: 8px;
+            color: white;
+            padding-top: 8px;
+        }
+        .chiziq2{
+            width: 340px;
+            margin-top: 26px;
+            border: 2px solid white;
+           
+        }
+        .ish{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+         padding-left: 8px;
+            color: white;
+            padding-top: 15px;
+        }
+        .time{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+
+            color: white;
+            padding-left: 8px;
+            padding-top: 8px;
+        }
+        .aylana11{
+        display: none;
+
+        }
+
+
+}
+@media (min-width: 320px ) and (max-width: 699.5px) {
+        .biz2{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+            text-align: left;
+
+
+            color: white;
+            margin: 40px auto 0 ;
+            max-width: 280px;
+        }
+    .box-cards6{
+        display: flex;
+        flex-direction: column;
+        max-width: 1140px;
+        justify-content: center;
+        align-items: center;
+    }
+        .big-box2{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            border-radius: 15px;
+
+        }
+    .yandex-map {
+        width: 100%; /* Kenglikni butunlay egallash */
+        height: 300px; /* Xarita balandligi */
+        margin: 0 auto; /* Xarita markazga kelishi uchun */
+    }
+        .map{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+
+            text-align: center;
+            padding-top: 135px;
+
+        }
+        .card-body9{
+            width: 300px;
+            height: 400px;
+            background-color: #8F8F8F1A;
+            border-radius: 15px ;
+            box-shadow: -32.67px 32.67px 32.67px 0px #FFFFFF1A inset;
+
+            box-shadow: 32.67px -32.67px 32.67px 0px #6C6C6C1A inset;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 15px;
+            backdrop-filter: blur(65.33333587646484px);
+        }
+        .buxoro{
+            font-family: Inter;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 27.84px;
+            text-align: left;
+
+            padding-left: 9px;
+            color: white;
+            padding-top: 16px;
+        }
+        .div-card{
+            max-width: 100%;
+            height: 150px;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 7px;
+
+        }
+        .image3{
+          display: none;
+        }
+
+        .mol{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+            color: white;
+            padding-top: 30px;
+        }
+        .text-card{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+
+            color: white;
+            padding-top: 8px;
+        }
+        .chiziq2{
+            width: 280px;
+            margin-top: 26px;
+            border: 2px solid white;
+
+        }
+        .ish{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+
+            color: white;
+            padding-top: 15px;
+        }
+        .time{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+
+
+            color: white;
+            padding-top: 8px;
+        }
+        .aylana11{
+          display: none;
+
+        }
+
+
+
+
+}

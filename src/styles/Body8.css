@@ -1,0 +1,311 @@
+@media (min-width: 1001px) {
+    .text-body8{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+color: white;
+        margin: 140px auto 0 ;
+        max-width: 1220px;
+}
+    .aylana9{
+            width: 450px;
+            height: 450px;
+            background: linear-gradient(180deg, #31A8FF 0%, #975AD7 99.99%, #FF0AAD 100%);
+        filter: blur(350px) brightness(2); /* Increased brightness to 200% */
+            transform: rotate(-57.69deg);
+            position: absolute;
+            top: 5951px;
+            left: -500px;
+
+    }
+    .box-cards6{
+        display: flex;
+        gap: 20px;
+        margin: 0 auto;
+        max-width: 1220px;
+        padding-top: 61px;
+    }
+    .card-body8{
+        width: 680px;
+        height: 651px;
+        border-radius: 20px;
+background-color: white;
+    }
+    .image{
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.41px;
+        text-align: center;
+        padding-top: 287px;
+    }
+    .bax{
+        width: 480px;
+        height: 651px;
+        border-radius: 20px;
+        box-shadow: -37.7px 37.7px 37.7px 0px #FFFFFF1A inset;
+
+        box-shadow: 37.7px -37.7px 37.7px 0px #A5A5A51A inset;
+        padding: 40px;
+
+        backdrop-filter: blur(75.4000015258789px);
+        background-color: #D9D9D91A;
+
+    }
+    .bax-card{
+        width: 400px;
+        height: 294px;
+        border-radius: 15px;
+background-color: white;
+    }
+    .image2{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.26px;
+        text-align: center;
+        padding-top: 126px;
+    }
+    .bepul{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.31px;
+        text-align: left;
+color: white;
+        padding-top: 35px;
+    }
+    .tel{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18.15px;
+        text-align: left;
+        color: white;
+        padding-top: 10px;
+    }
+    .btn-body8{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.26px;
+        text-align: center;
+color: white;
+        margin-top: 34px;
+        border: 1px solid #31A8FF;
+        background-color: #31A8FF;
+        width: 400px;
+        height: 81px;
+
+        border-radius: 15px;
+
+    }
+    .aylana10{
+        width: 450px;
+        height: 450px;
+        background: linear-gradient(180deg, #31A8FF 0%, #975AD7 99.99%, #FF0AAD 100%);
+        filter: blur(350px) brightness(1.5) contrast(1.2);
+        transform: rotate(-57.69deg);
+        position: absolute;
+        top: 6843px;
+        right: 90px;
+    }
+}
+@media (min-width: 700px ) and (max-width: 1000px) {
+        .text-body8{
+         display: none;
+        }
+        .aylana9{
+           display: none;
+
+        }
+        .box-cards6{
+            display: flex;
+            gap: 20px;
+            margin: 0 auto;
+            max-width: 1220px;
+            padding-top: 43px;
+        }
+        .card-body8{
+            width: 1300px;
+            height: 490px;
+            border-radius: 20px;
+            background-color: white;
+        }
+        .image{
+            font-family: Inter;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36.31px;
+
+            text-align: center;
+            padding-top: 227px;
+        }
+        .bax{
+            width: 330px;
+            height: 490px;
+            border-radius: 20px;
+            box-shadow: -37.7px 37.7px 37.7px 0px #FFFFFF1A inset;
+
+            box-shadow: 37.7px -37.7px 37.7px 0px #A5A5A51A inset;
+            padding: 20px;
+
+            backdrop-filter: blur(75.4000015258789px);
+            background-color: #D9D9D91A;
+
+        }
+        .bax-card{
+            width: 290px;
+            height: 240px;
+            border-radius: 15px;
+            background-color: white;
+        }
+        .image2{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+
+            text-align: center;
+            padding-top: 105px;
+        }
+        .bepul{
+            font-family: Inter;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 27.84px;
+            text-align: left;
+
+            color: white;
+            padding-top: 24px;
+        }
+        .tel{
+            font-family: Inter;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 14.52px;
+            text-align: left;
+
+            color: white;
+            padding-top: 5px;
+        }
+        .btn-body8{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+            text-align: center;
+
+            color: white;
+            margin-top: 34px;
+            border: 1px solid #31A8FF;
+            background-color: #31A8FF;
+            width: 290px;
+            height: 60px;
+
+            border-radius: 15px;
+
+        }
+        .aylana10{
+       display: none;
+        }
+
+}
+@media (min-width: 320px ) and (max-width: 699.5px) {
+        .text-body8{
+            display: none;
+        }
+        .aylana9{
+            display: none;
+
+        }
+        .box-cards6{
+            display: block ;
+            margin: 0 auto;
+            max-width: 1220px;
+            padding-top: 44px;
+        }
+        .card-body8{
+           display: none;
+        }
+        .image{
+        display: none;
+        }
+        .bax{
+            width: 300px;
+            height: 381px;
+            border-radius: 15px;
+            box-shadow: -37.7px 37.7px 37.7px 0px #FFFFFF1A inset;
+
+            box-shadow: 37.7px -37.7px 37.7px 0px #A5A5A51A inset;
+            padding: 10px;
+              margin: 0 auto;
+            backdrop-filter: blur(75.4000015258789px);
+            background-color: #D9D9D91A;
+
+        }
+        .bax-card{
+            width: 280px;
+            height: 180px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .image2{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+
+
+            text-align: center;
+            padding-top: 75px;
+        }
+        .bepul{
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            text-align: left;
+
+
+            color: white;
+            padding-top: 36px;
+        }
+        .tel{
+            font-family: Inter;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 12.1px;
+            text-align: left;
+
+
+            color: white;
+            padding-top: 10px;
+        }
+        .btn-body8{
+            font-family: Inter;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20.57px;
+            text-align: center;
+
+
+            color: white;
+            margin-top: 37px;
+            border: 1px solid #31A8FF;
+            background-color: #31A8FF;
+            width: 280px;
+            height: 40px;
+
+            border-radius: 10px;
+
+        }
+        .aylana10{
+            display: none;
+        }
+
+
+
+}

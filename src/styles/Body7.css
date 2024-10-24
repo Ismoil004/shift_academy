@@ -1,0 +1,226 @@
+@media (min-width: 1001px) {
+.kurs{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+    color: white;
+    margin: 87px auto 0 ;
+    max-width: 1220px;
+}
+    .oy{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.2px;
+        text-align: left;
+
+    }
+    .box-cards5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin: 0 auto;
+        max-width: 1220px;
+        padding-top: 55px;
+    }
+    .media-body7{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 34px;
+    }
+    .front{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.26px;
+        text-align: left;
+       color: white;
+    }
+    .card-body7{
+        max-width: 580px;
+        height: 200px;
+        display: flex;
+        border-radius: 15px;
+        gap: 34px;
+        box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+
+        box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+
+        backdrop-filter: blur(52px);
+        background-color: #D9D9D91A;
+    }
+    .card-aylana4{
+        width: 80px;
+        height: 80px;
+ background-color: white;
+        border-radius: 10px ;
+margin-top: 28px;
+       margin-left: 28px;
+    }
+}
+@media (min-width: 700px ) and (max-width: 1000px) {
+    .kurs{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.31px;
+        text-align: left;
+        color: white;
+        padding-top: 27px;
+        padding-left: 27px;
+    }
+    .front{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.78px;
+        text-align: left;
+
+        color: white;
+    }
+    .oy{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18.15px;
+        text-align: left;
+
+
+    }
+    .card-body7{
+        max-width: 580px;
+        height: 200px;
+        display: flex;
+        border-radius: 15px;
+        gap: 15px !important;
+        box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+padding-top: 22px;
+        box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+color: white;
+        backdrop-filter: blur(52px);
+        background-color: #D9D9D91A;
+    }
+    .media-body7{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .box-cards5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin: 0 auto;
+        max-width: 1220px;
+        padding-top: 26px;
+    }
+    .card-body7{
+        max-width: 580px;
+        height: 120px;
+        display: flex;
+        border-radius: 10px;
+        gap: 34px;
+        box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+
+        box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+
+        backdrop-filter: blur(52px);
+        background-color: #D9D9D91A;
+    }
+    .card-aylana4{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 5px ;
+        margin-left: 17px;
+    }
+
+}
+@media (min-width: 320px ) and (max-width: 699.5px) {
+        .kurs{
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+            text-align: left;
+
+            color: white;
+            margin: 29px auto 0 ;
+            max-width: 280px;
+        }
+    .media-body7{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .front{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18.15px;
+        text-align: left;
+
+
+        color: white;
+    }
+    .oy{
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14.52px;
+        text-align: left;
+
+
+    }
+        .card-body7{
+            max-width: 580px;
+            height: 200px;
+            display: flex;
+            border-radius: 15px;
+            gap: 15px !important;
+            box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+            padding-top: 22px;
+            box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+            color: white;
+            backdrop-filter: blur(52px);
+            background-color: #D9D9D91A;
+        }
+        .box-cards5{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            margin: 0 auto;
+            max-width: 1220px;
+            padding-top: 29px;
+        }
+        .card-body7{
+            width:  300px;
+            height: 100px;
+            display: flex;
+            border-radius: 10px;
+            gap: 20px;
+            padding-top: 10px;
+            box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+
+            box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+
+            backdrop-filter: blur(52px);
+            background-color: #D9D9D91A;
+        }
+        .card-aylana4{
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 5px ;
+            margin-left: 10px;
+
+    }
+
+}

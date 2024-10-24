@@ -1,0 +1,253 @@
+@media (min-width: 1001px) {
+    .carousel-container {
+        height: 480px;
+        max-width: 100%;
+        background-color: #D9D9D91A;
+        box-shadow: -66px 66px 66px 0px #FFFFFF1A inset;
+
+        box-shadow: 66px -66px 66px 0px #A5A5A51A inset;
+        display: flex;
+        align-items: center;
+        backdrop-filter: blur(132px);
+        margin-top: 163px;
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .body2 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 350px;
+        animation: slide infinite 5s linear; /* Continuous sliding animation */
+margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-400%); /* Move through 4 cards (half of the 8 cards) */
+        }
+    }
+    .card-body2 {
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        border-radius: 15px;
+        flex: 0 0 100%; /* Each card takes full width */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-card {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .prev-btn, .next-btn {
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60.51px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        padding-bottom: 60px;
+        padding-left: 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        background-color: gray;
+        color: #31A8FF;
+        border: none;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .prev-btn {
+        left: 10px;
+    }
+
+    .next-btn {
+        right: 10px;
+    }
+}
+@media (min-width: 700px ) and (max-width: 1000px) {
+    .carousel-container {
+        height: 300px;
+        max-width: 100%;
+        background-color: #D9D9D91A;
+        box-shadow: -66px 66px 66px 0px #FFFFFF1A inset;
+
+        box-shadow: 66px -66px 66px 0px #A5A5A51A inset;
+        display: flex;
+        align-items: center;
+        backdrop-filter: blur(132px);
+        margin-top: 47px;
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .body2 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 6250px;
+        animation: slide infinite 10s linear; /* Continuous sliding animation */
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-70%); /* Move through 4 cards (half of the 8 cards) */
+        }
+    }
+    .card-body2{
+        width:250px;
+        height: 250px;
+        margin-top: 14px;
+        background-color: white;
+        border-radius: 15px;
+
+    }
+
+    .prev-btn, .next-btn {
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        background-color: gray;
+        color: #31A8FF;
+        border: none;
+        z-index: 1;
+        cursor: pointer;
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Horizontally center text */
+        align-items: center; /* Vertically center text */
+        padding: 0; /* Remove unnecessary padding */
+    }
+
+
+    .prev-btn {
+        left: 10px;
+    }
+
+    .next-btn {
+        right: 10px;
+    }
+    .img-card{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.2px;
+        text-align: center;
+        padding-top: 113px;
+    }
+}
+@media (min-width: 320px ) and (max-width: 699.5px) {
+    .carousel-container {
+        height: 200px;
+        max-width: 100%;
+        background-color: #D9D9D91A;
+        box-shadow: -66px 66px 66px 0px #FFFFFF1A inset;
+
+        box-shadow: 66px -66px 66px 0px #A5A5A51A inset;
+        display: flex;
+        align-items: center;
+        backdrop-filter: blur(132px);
+        margin-top: 22px;
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .body2 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 6250px;
+        animation: slide infinite 5s linear; /* Continuous sliding animation */
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-55%); /* Move through 4 cards (half of the 8 cards) */
+        }
+    }
+        .card-body2{
+            width: 140px;
+            height: 140px;
+            background-color: white;
+            border-radius: 10px;
+
+        }
+    .prev-btn, .next-btn {
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px; /* Match the button height for vertical centering */
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        background-color: gray;
+        color: #31A8FF;
+        border: none;
+        z-index: 1;
+        cursor: pointer;
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Horizontally center text */
+        align-items: center; /* Vertically center text */
+        padding: 0; /* Remove extra padding */
+    }
+
+
+    .prev-btn {
+        left: 10px;
+    }
+
+    .next-btn {
+        right: 10px;
+    }
+        .img-card{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+
+            text-align: center;
+            padding-top: 61px;
+        }
+
+
+}

@@ -1,0 +1,220 @@
+@media (min-width: 1001px) {
+    .text-body3{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+color: white;
+        margin: 104px auto 0 ;
+        max-width: 1140px;
+    position: relative;
+}
+    .card-body3-text{
+        display: flex;
+        gap: 30px;
+    }
+    .aylana4 {
+        width: 450px;
+        height: 450px;
+        background: linear-gradient(180deg, #31A8FF 0%, #975AD7 99.99%, #FF0AAD 100%);
+        filter: blur(350px) brightness(1.5) contrast(1.2);
+        transform: rotate(-57.69deg);
+        position: absolute;
+        top: 1980px;
+        right: 90px;
+    }
+    .box-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        gap: 24px;
+        margin: 0 auto;
+        max-width: 1140px;
+        padding-top: 63px;
+    }
+    .card-body3{
+        max-width: 580px;
+        height: 200px;
+    background-color: #D9D9D91A;
+        border-radius: 15px ;
+        box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+
+        box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+        padding-top: 26px;
+        padding-left: 19px;
+        backdrop-filter: blur(52px);
+
+    }
+    .card-aylana2{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+
+    }
+    .lorem{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.26px;
+        text-align: left;
+color: white;
+        margin-top: 10px;
+    }
+    .lorem2{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30.26px;
+        text-align: left;
+color: white;
+        padding-top: 24px;
+        padding-left: 25px;
+    }
+}
+@media (min-width: 700px ) and (max-width: 1000px) {
+    .text-body3{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.26px;
+        text-align: left;
+        color: white;
+        margin-top: 27px;
+        padding-left: 20px;
+        position: relative;
+    }
+    .aylana4 {
+ display: none;
+    }
+    .box-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        gap: 24px;
+        margin: 0 auto;
+        max-width: 1140px;
+        padding-top: 63px;
+    }
+    .card-body3-text{
+        display: flex;
+        gap: 13px !important;
+    }
+    .card-body3{
+        max-width: 580px;
+        height: 125px;
+        background-color: #D9D9D91A;
+        border-radius: 7px ;
+        box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+
+        box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+       padding: 10px;
+        backdrop-filter: blur(52px);
+
+    }
+    .card-aylana2{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+
+    }
+    .lorem{
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20.57px;
+        text-align: left;
+
+        color: white;
+        margin-top: 7px;
+    }
+    .lorem2{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.15px;
+        text-align: left;
+
+        color: white;
+        padding-top: 16px;
+        padding-left: 25px;
+    }
+}
+@media (min-width: 320px ) and (max-width: 699.5px) {
+        .text-body3{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+
+            color: white;
+            margin: 16px auto 0 ;
+            max-width: 280px;
+            position: relative;
+        }
+        .aylana4 {
+            display: none;
+        }
+        .box-cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 0 auto;
+            max-width: 100%;
+            padding-top: 19px;
+        }
+        .card-body3-text{
+            display: flex;
+            gap: 13px !important;
+        }
+        .card-body3{
+            width:  300px;
+            height: 100px;
+            background-color: #D9D9D91A;
+            border-radius: 10px ;
+            box-shadow: -26px 26px 26px 0px #FFFFFF1A inset;
+
+            box-shadow: 26px -26px 26px 0px #A5A5A51A inset;
+            backdrop-filter: blur(52px);
+padding-top: 15px;
+            padding-left: 12px;
+        }
+        .card-aylana2{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+
+            background-color: white;
+
+        }
+        .lorem{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            text-align: left;
+
+
+            color: white;
+            margin-top: 4px;
+        }
+        .lorem2{
+            font-family: Inter;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.52px;
+            text-align: left;
+
+
+            color: white;
+            padding-top: 10px;
+            padding-left: 13px;
+
+    }
+
+}

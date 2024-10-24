@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.homeMain {
+    background-color: #001E36;
+
+}
+@media (min-width: 1001px) {
+
+
+    .wrapper4{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+@media (min-width: 700px ) and (max-width: 1000px) {
+    .wrapper4{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+@media (min-width: 320px ) and (max-width: 699.5px) {
+    .wrapper4{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+}
